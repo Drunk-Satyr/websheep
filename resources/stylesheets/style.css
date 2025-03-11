@@ -1,13 +1,77 @@
+@font-face { font-family: CoffeeCake; src: url('../fonts/CoffeCake.otf'); }
+
 body {
-    background-image: url("background.png");
+    /*background-image: url("../media/background.png");*/
     background-color: #8748beca;
     margin: 0;
     padding: 0;
 }
 
-.pictureframe {
-    height: 100%;
-    max-width: fit-content;
-    margin-inline: auto;
-    background-color: #ba8bff
+a {
+    color: white;
+}
+
+.small {
+    max-width: 100px;
+    min-width: 100px;
+    max-height: 100px;
+    min-height: 100px;
+}
+
+.bouncing-sheep {
+    display: block;
+    position: absolute;
+}
+
+.middle-vertical-col {
+    display: flex;
+    justify-content: center;
+    min-width: 25rem;
+    width: 50%;
+    max-width: 75%;
+    min-height: 100vh;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.vertical-col {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.welcome-gallery {
+    display: flex;
+    flex: 2;
+    min-width: 150px;
+    max-width: 100px;
+    margin: 5px;
+}
+
+.content-box {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cake-font {
+    font-family: CoffeeCake;
+}
+
+.title {
+    font-size: 6rem;
+    color: white;
+}
+
+
+.center {
+    text-align: center;
+}
+
+.text-box {
+    display: flex;
+    flex: 2;
+    align-content: center;
 }
