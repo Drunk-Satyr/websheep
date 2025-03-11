@@ -23,8 +23,8 @@ function handleMovement() {
     // push back in bounds if it gets caught outside
     if (position.y + sheepHeight > screenHeight) position.y = screenHeight - 1;
     if (position.x + sheepWidth > screenWidth) position.x = screenWidth - 1;
-    if (position.y < 0) position.y = 0;
-    if (position.x < 0) position.x = 0;
+    if (position.y < 0) position.y = 1;
+    if (position.x < 0) position.x = 1;
 
     // clamps direction to [-1,1]
     if (direction.x < -1) direction.x = -1;
