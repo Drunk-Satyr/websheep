@@ -1,7 +1,7 @@
 @font-face { font-family: CoffeeCake; src: url('../fonts/CoffeCake.otf'); }
 
 body {
-    /*background-image: url("../media/background.png");*/
+    background-image: url("../media/background.png");
     background-color: #8748beca;
     margin: 0;
     padding: 0;
