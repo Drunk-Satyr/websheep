@@ -1,14 +1,15 @@
 @font-face { font-family: CoffeeCake; src: url('../fonts/CoffeCake.otf'); }
 
+* {
+    color: white;
+    font-family: CoffeeCake;
+}
+
 body {
     background-image: url("../media/background.png");
     background-color: #8748beca;
     margin: 0;
     padding: 0;
-}
-
-a {
-    color: white;
 }
 
 .small {
@@ -54,10 +55,6 @@ a {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-}
-
-.cake-font {
-    font-family: CoffeeCake;
 }
 
 .title {
